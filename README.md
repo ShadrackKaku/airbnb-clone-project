@@ -80,42 +80,43 @@ A set of practices and tools (like GitHub Actions or similar) that automate the 
 This section outlines the core entities and relationships for the Airbnb Clone Project’s database.
 
 Key Entities and Fields
-1. Users
-id: Unique identifier for each user.
-name: Full name of the user.
-email: User’s email address (unique).
-password_hash: Encrypted password for authentication.
+**1. Users**
+**id**: Unique identifier for each user.
+**name**: Full name of the user.
+**email**: User’s email address (unique).
+**password_hash**: Encrypted password for authentication.
 created_at: Date the account was created.
-2. Properties
-id: Unique identifier for each property.
-owner_id: References the user who owns/listed the property.
-title: Name or title of the property.
-description: Detailed description of the property.
-location: Address or geographic location.
-3. Bookings
-id: Unique identifier for each booking.
-user_id: References the user who makes the booking.
-property_id: References the property being booked.
-start_date: Check-in date.
-end_date: Check-out date.
-4. Reviews
-id: Unique identifier for each review.
-user_id: References the user leaving the review.
-property_id: References the property being reviewed.
-rating: Numeric rating value (e.g., 1–5).
+**2. Properties**
+**id**: Unique identifier for each property.
+**owner_id**: References the user who owns/listed the property.
+**title**: Name or title of the property.
+**Description**: Detailed description of the property.
+**location**: Address or geographic location.
+**3. Bookings**
+**id**: Unique identifier for each booking.
+**user_id**: References the user who makes the booking.
+**property_id**: References the property being booked.
+**start_date**: Check-in date.
+**end_date**: Check-out date.
+**4. Reviews**
+**id**: Unique identifier for each review.
+**user_id**: References the user leaving the review.
+**property_id**: References the property being reviewed.
+**rating**: Numeric rating value (e.g., 1–5).
 comment: Textual feedback.
-5. Payments
-id: Unique identifier for each payment.
-booking_id: References the booking being paid for.
-amount: Payment amount.
-payment_date: Date of payment.
-status: Payment status (e.g., pending, completed, failed).
-Entity Relationships
-A User can own multiple Properties (one-to-many).
-A User can make multiple Bookings (one-to-many).
-A Property can have multiple Bookings (one-to-many).
-Each Booking belongs to one User and one Property (many-to-one).
-A User can leave multiple Reviews on different Properties (one-to-many).
-A Property can have multiple Reviews from different Users (one-to-many).
-Each Booking can have one Payment (one-to-one).
+**5. Payments**
+**id**: Unique identifier for each payment.
+**booking_id**: References the booking being paid for.
+**amount**: Payment amount.
+**payment_date**: Date of payment.
+**status**: Payment status (e.g., pending, completed, failed).
+
+## Entity Relationships
+A **User** can own multiple Properties (one-to-many).
+A **User** can make multiple Bookings (one-to-many).
+A **Property** can have multiple Bookings (one-to-many).
+Each **Booking** belongs to one User and one Property (many-to-one).
+A **User** can leave multiple Reviews on different Properties (one-to-many).
+A **Property** can have multiple Reviews from different Users (one-to-many).
+Each **Booking** can have one Payment (one-to-one).
 
