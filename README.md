@@ -23,7 +23,7 @@ Key Highlights
 Hands-on GitHub Repository Management:
 Learn to initialize and structure a project repository, adhering to industry best practices.
 
-#Team Roles
+# Team Roles
 Understand and articulate the responsibilities of various team members, fostering collaboration in real-world scenarios.
 
 Technology Stack Breakdown:
