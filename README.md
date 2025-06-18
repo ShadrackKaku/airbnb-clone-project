@@ -139,5 +139,40 @@ Enables guests to search for available properties, make reservations, and manage
 Permits guests to leave ratings and feedback on properties they have stayed in. This feature helps maintain quality standards, builds trust in the community, and guides future guests in their selection process.  
 
 **Payment Processing**  
-Facilitates secure payment transactions for bookings.  The system handles payment status tracking (pending, completed, failed), ensuring a smooth and reliable financial exchange between guests and property owners.  
+Facilitates secure payment transactions for bookings.  The system handles payment status tracking (pending, completed, failed), ensuring a smooth and reliable financial exchange between guests and property owners.
+
+# API Security  
+Securing the backend APIs is critical to protecting users, data, and business operations. The following key security measures will be implemented in this project:  
+
+**1. Authentication**  
+Only verified users can access protected endpoints. Authentication ensures that each request comes from a legitimate source, helping to prevent unauthorized access to user accounts and sensitive resources.  
+
+**Why it’s important:**  
+Authentication protects user data and personal information from being accessed by attackers or unauthorized users.
+
+**2. Authorization**  
+After authentication, authorization controls what actions an authenticated user can perform. This includes restricting access to admin-only features or user-specific data.  
+
+**Why it’s important:**  
+Authorization prevents users from accessing or modifying resources that do not belong to them, such as booking information or payment details.
+
+**3. Rate Limiting**  
+Rate limiting restricts the number of API requests a client can make in a given timeframe. This helps prevent abuse, brute-force attacks, and denial-of-service (DoS) attacks.  
+
+**Why it’s important:**  
+Rate limiting maintains service availability for all users and protects the system from being overwhelmed by malicious or excessive requests.  
+
+**4. Data Validation & Sanitization**  
+All input data will be validated and sanitized to prevent injection attacks and ensure system integrity.  
+
+**Why it’s important:**  
+Proper validation and sanitization safeguard the backend against common vulnerabilities such as SQL injection and cross-site scripting (XSS).  
+
+**5. Secure Payment Processing**  
+Sensitive payment data will be handled securely, following industry standards such as PCI DSS, and integrating with trusted payment gateways.  
+
+**Why it’s important:**  
+Securing payment information is vital to protect users from fraud and ensure the trustworthiness of the platform.  
+
+
 
