@@ -174,5 +174,15 @@ Sensitive payment data will be handled securely, following industry standards su
 **Why it’s important:**  
 Securing payment information is vital to protect users from fraud and ensure the trustworthiness of the platform.  
 
+# CI/CD Pipeline
+A CI/CD (Continuous Integration/Continuous Deployment) pipeline automates the process of building, testing, and deploying code. This ensures that new changes are integrated smoothly and delivered quickly, improving code quality and reducing manual errors.  
 
+For this project, implementing a CI/CD pipeline helps to automatically run tests, build the application, and deploy updates whenever changes are pushed to the repository. This leads to faster development cycles and more reliable releases.  
+
+Common **tools** used for **CI/CD pipelines** include:  
+
+**GitHub Actions:** Automates workflows directly within GitHub, such as running tests and deploying code upon each commit or pull request.  
+**Docker:** Packages the application into containers, making it easier to build, test, and deploy in consistent environments.   
+Other tools: **Jenkins**, **Travis CI**, or **CircleCI** can also be used for more advanced or customized pipelines.  
+Integrating a CI/CD pipeline into this project ensures continuous feedback, improves collaboration, and maintains high code quality throughout development.
 
