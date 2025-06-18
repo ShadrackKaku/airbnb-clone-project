@@ -86,24 +86,28 @@ Key Entities and Fields
 **email**: User’s email address (unique).  
 **password_hash**: Encrypted password for authentication.  
 created_at: Date the account was created.  
+
 **2. Properties**  
 **id**: Unique identifier for each property.  
 **owner_id**: References the user who owns/listed the property.  
 **title**: Name or title of the property.  
 **Description**: Detailed description of the property.  
 **location**: Address or geographic location.  
+
 **3. Bookings**  
 **id**: Unique identifier for each booking.  
 **user_id**: References the user who makes the booking.  
 **property_id**: References the property being booked.  
 **start_date**: Check-in date.  
 **end_date**: Check-out date.  
+
 **4. Reviews**  
 **id**: Unique identifier for each review.  
 **user_id**: References the user leaving the review.  
 **property_id**: References the property being reviewed.  
 **rating**: Numeric rating value (e.g., 1–5).  
 comment: Textual feedback.  
+
 **5. Payments**  
 **id**: Unique identifier for each payment.  
 **booking_id**: References the booking being paid for.  
