@@ -1,8 +1,8 @@
 # airbnb-clone-project
-About the Project
+**About the Project**
 The Airbnb Clone Project is a comprehensive, real-world application designed to simulate the development of a robust booking platform like Airbnb. It involves a deep dive into full-stack development, focusing on backend systems, database design, API development, and application security. This project enables learners to understand complex architectures, workflows, and collaborative team dynamics while building a scalable web application.
 
-Objective of this project
+**Objective of this project**
 This project is tailored to enhance expertise in modern software development practices. By completing these tasks, we:
 
 Master collaborative team workflows using GitHub.
@@ -23,7 +23,7 @@ Key Highlights
 Hands-on GitHub Repository Management:
 Learn to initialize and structure a project repository, adhering to industry best practices.
 
-Team Role Documentation:
+**Team Role Documentation:**
 Understand and articulate the responsibilities of various team members, fostering collaboration in real-world scenarios.
 
 Technology Stack Breakdown:
