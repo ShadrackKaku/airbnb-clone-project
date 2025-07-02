@@ -20,7 +20,7 @@ The ERD below visualizes the main entities, their attributes, and relationships 
 > **Include your Draw.io (or similar) ERD diagram here as an image.**
 >
 > Example:
-> ![ The ERD of Airbnb clone project](ERD/airbnb_ER.drawio.svg)
+> ![ The ERD of Airbnb clone project](/airbnb_ER.drawio.svg)
 > 
 
 ---
