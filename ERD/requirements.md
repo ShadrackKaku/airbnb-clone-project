@@ -19,7 +19,6 @@ The ERD below visualizes the main entities, their attributes, and relationships 
 
 > **Airbnb Clone Project ER Drawing.**
 >
-> Example:
 > ![ERD](https://github.com/ShadrackKaku/airbnb-clone-project/blob/main/ERD/airbnb_ER.drawio.svg)
 
 
