@@ -17,7 +17,7 @@ This document details the database design for the Airbnb Clone project, part of 
 
 The ERD below visualizes the main entities, their attributes, and relationships for the Airbnb Clone database.
 
-> **Include your Draw.io (or similar) ERD diagram here as an image.**
+> **Airbnb Clone Project ER Drawing.**
 >
 > Example:
 > ![ERD](https://github.com/ShadrackKaku/airbnb-clone-project/blob/main/ERD/airbnb_ER.drawio.svg)
